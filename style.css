@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 60px;
+}
+#canvasColor, #penColor, #gridOn, #gridOff{
+    height: 20px;
+}
+#taskbar{
+    height: auto;
+    background-color: skyblue;
+    padding: 5px 0px 5px 5px;
+}
+#canvas{
+    border: 1px solid black;
+}
+button{
+    height: auto;
+}
+img{
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="canvasBody">
+    <div class="container">
+        <div id="taskbar">
+            | <a href="https://github.com/AyanMK"><img src="image/AyanMK.png" alt="https://github.com/AyanMK"></a> 
+            | Canvas width  <input type="text" id="canvasWidth">
+            | Canvas hight <input type="text" id="canvasHight">
+            | Canvas color <input type="color" value="#ffffff" id="canvasColor" oninput="canvasColoeCode.value = canvasColor.value"><input type="text" id="canvasColoeCode" value="#ffffff">
+            | Pen color <input type="color" value="#000000" id="penColor" oninput="penColorCode.value = penColor.value"><input type="text" id="penColorCode" value="#000000">
+            | Pen thiknes <input type="text" id="penThiknessValue" value="1">
+            | Eraser <button id="eraserOn">ON</button><button id="eraserOff">OFF</button>
+            | Grid <button id="gridOn">ON</button><button id="gridOff">OFF</button>
+            | 
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
